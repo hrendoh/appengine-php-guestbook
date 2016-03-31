@@ -2,5 +2,7 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /.*
-  script: helloworld.php
+- url: /
+  script: guestbook.php
+- url: /sign
+  script: sign.php
